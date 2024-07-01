@@ -18,12 +18,12 @@ In `../libraries/TFT_eSPI/User_Setups/Setup24_ST7789.h`:
 uncomment this:
 ```
 // Generic ESP32 setup
-#define TFT_MISO -1
-#define TFT_MOSI 23
-#define TFT_SCLK 18
+#define TFT_MISO -1 // Not connected
+#define TFT_MOSI 23 // SDA pin
+#define TFT_SCLK 18 // SCK pin
 #define TFT_CS -1 // Not connected
-#define TFT_DC 2
-#define TFT_RST 4 // Connect reset to ensure display initialises
+#define TFT_DC 2 // DC pin
+#define TFT_RST 4 // RES pin
 ```
 comment this:
 ```
