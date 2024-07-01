@@ -11,12 +11,12 @@
 #include "image.h" //Load background image
 
 // Replace with your network credentials  
-const char* ssid = "16-106";  
-const char* password = "home-internet";  
+const char* ssid = "<SSID>";  
+const char* password = "<PASS>";  
   
 // OpenWeatherMap API details  
 const char* city = "Kyiv";  
-const char* apiKey = "f4b667fd9710bc65bba7bb45adef73f6";  
+const char* apiKey = "<API_KEY>";  
 //const char* timeApiUrl = "https://worldtimeapi.org/api/timezone/EET/";
 
 // NTP server to fetch time  
