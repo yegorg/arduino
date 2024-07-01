@@ -57,7 +57,7 @@ void setup() {
   display.display();  
   
   // Optional: Control the backlight  
-  pinMode(15, OUTPUT);  
+  pinMode(15, OUTPUT);  // BLK pin
   digitalWrite(15, HIGH); // Turn on the backlight  
    // Clear the screen with black color  
   tft.fillScreen(TFT_BLACK);  
