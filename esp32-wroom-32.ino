@@ -10,12 +10,12 @@
 
   
 // Replace with your network credentials  
-const char* ssid = "16-106";  
-const char* password = "home-internet";  
+const char* ssid = "<SSID>";  
+const char* password = "<PASS>";  
   
 // OpenWeatherMap API details  
-const char* city = "Kyiv";  
-const char* apiKey = "f4b667fd9710bc65bba7bb45adef73f6";  
+const char* city = "<CITY>";  
+const char* apiKey = "<API_KEY>";  
 
 // NTP server to fetch time  
 const char* ntpServer = "pool.ntp.org";  
