@@ -36,7 +36,7 @@ comment this:
 // must also then add 10K pull down to TFT SCK
 ```
 
-In `../libraries/TFT_eSPI/User_Setup.h`:
+In `../libraries/TFT_eSPI/User_Setup_Select.h`:
 
 Replace 
 ```
